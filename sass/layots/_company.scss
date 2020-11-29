@@ -1,0 +1,35 @@
+.company {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.list-company {
+  display: flex;
+  margin: 0;
+  padding: 0px;
+}
+.list-border:not(:last-child) {
+  margin-right: 30px;
+}
+.link-befor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.svg-logo {
+  fill: #afb1b8;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link-befor:hover {
+  border: 1px solid #2196f3;
+}
+.link-befor:hover .svg-logo,
+.link-befor:focus .svg-logo {
+  fill: #2196f3;
+}

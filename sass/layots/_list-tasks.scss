@@ -1,0 +1,34 @@
+.list-tasks {
+  padding-bottom: 94px;
+  padding-top: 94px;
+  padding-left: 0px;
+}
+.list-container {
+  display: inline-block;
+  display: flex;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+.list {
+  display: block;
+  width: 270px;
+  margin-bottom: 30px;
+}
+.block-svg-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.list-svg-icon {
+  display: block;
+
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
