@@ -42,6 +42,11 @@ a.font-style {
 
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: #2196f3;
+  }
 }
 .excretion.current:after {
   content: "";
@@ -55,10 +60,6 @@ a.font-style {
   background-color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.excretion:hover,
-.excretion:focus {
-  color: #2196f3;
 }
 
 .address-header {
@@ -85,29 +86,32 @@ a.font-style {
 
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: #2196f3;
+  }
 }
 .icon-envelope-hover {
   margin-right: 10px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.adress-excretion:hover,
-.adress-excretion:focus {
-  color: #2196f3;
+
+  .adress-excretion:hover &,
+  .adress-excretion:focus & {
+    fill: #2196f3;
+  }
 }
 
-.adress-excretion:hover .icon-envelope-hover,
-.adress-excretion:focus .icon-envelope-hover {
-  fill: #2196f3;
-}
 .icon-smartphone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.adress-excretion:hover .icon-smartphone,
-.adress-excretion:focus .icon-smartphone {
-  fill: #2196f3;
+
+  .adress-excretion:hover &,
+  .adress-excretion:focus & {
+    fill: #2196f3;
+  }
 }

@@ -191,6 +191,10 @@ a.font-style {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.excretion:hover, .excretion:focus {
+  color: #2196f3;
+}
+
 .excretion.current:after {
   content: "";
   position: absolute;
@@ -205,11 +209,6 @@ a.font-style {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.excretion:hover,
-.excretion:focus {
-  color: #2196f3;
 }
 
 .address-header {
@@ -246,17 +245,16 @@ a.font-style {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.adress-excretion:hover, .adress-excretion:focus {
+  color: #2196f3;
+}
+
 .icon-envelope-hover {
   margin-right: 10px;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.adress-excretion:hover,
-.adress-excretion:focus {
-  color: #2196f3;
 }
 
 .adress-excretion:hover .icon-envelope-hover,
@@ -316,8 +314,7 @@ a.font-style {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.buttom:hover,
-.buttom:focus {
+.buttom:hover, .buttom:focus {
   color: #2196f3;
   background-color: #ffffff;
 }
@@ -489,6 +486,10 @@ a.font-style {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.social-icons-link:hover {
+  background-color: #2196f3;
+}
+
 .our-team-svg {
   width: 20px;
   height: 20px;
@@ -497,10 +498,6 @@ a.font-style {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-icons-link:hover {
-  background-color: #2196f3;
 }
 
 .social-icons-link:hover .our-team-svg,
@@ -545,14 +542,6 @@ a.font-style {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.svg-logo {
-  fill: #afb1b8;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .link-befor:hover {
   border: 1px solid #2196f3;
 }
@@ -560,6 +549,14 @@ a.font-style {
 .link-befor:hover .svg-logo,
 .link-befor:focus .svg-logo {
   fill: #2196f3;
+}
+
+.svg-logo {
+  fill: #afb1b8;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer {
@@ -597,8 +594,7 @@ a.font-style {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.adress-footerone:hover,
-.adress-footerone:focus {
+.adress-footerone:hover, .adress-footerone:focus {
   color: #2196f3;
 }
 
@@ -614,8 +610,7 @@ a.font-style {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.adress-footer:hover,
-.adress-footer:focus {
+.adress-footer:hover, .adress-footer:focus {
   color: #2196f3;
 }
 
@@ -671,7 +666,7 @@ a.font-style {
   background-color: #2196f3;
 }
 
-.social-footer-links:not(:last-child) {
+.footer-icons-link:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -801,7 +796,6 @@ a.font-style {
   background-color: #fff;
 }
 
-/* home task #6 */
 .block-form {
   display: block;
   -webkit-box-pack: center;
@@ -1150,8 +1144,7 @@ a.font-style {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.buttomportfolio:hover,
-.buttomportfolio:focus {
+.buttomportfolio:hover, .buttomportfolio:focus {
   color: #ffffff;
   background-color: #2196f3;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -1173,8 +1166,7 @@ a.font-style {
   margin-right: 0px;
 }
 
-.flex-list:hover,
-.flex-list:focus {
+.flex-list:hover, .flex-list:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -1234,6 +1226,11 @@ a.font-style {
           transform: translateY(0);
 }
 
+.link-overlay:hover .portfolio-overlay,
+.link-overlay:hover .portfolio-overlay {
+  opacity: 1;
+}
+
 .img-overlay {
   display: block;
 }
@@ -1246,10 +1243,5 @@ a.font-style {
   font-size: 18px;
   line-height: 1.6;
   letter-spacing: 0.03em;
-}
-
-.link-overlay:hover .portfolio-overlay,
-.link-overlay:hover .portfolio-overlay {
-  opacity: 1;
 }
 /*# sourceMappingURL=main.css.map */

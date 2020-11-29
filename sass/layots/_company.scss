@@ -20,16 +20,17 @@
   border-radius: 4px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    border: 1px solid #2196f3;
+  }
+  &:hover .svg-logo,
+  &:focus .svg-logo {
+    fill: #2196f3;
+  }
 }
 .svg-logo {
   fill: #afb1b8;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.link-befor:hover {
-  border: 1px solid #2196f3;
-}
-.link-befor:hover .svg-logo,
-.link-befor:focus .svg-logo {
-  fill: #2196f3;
 }

@@ -34,9 +34,10 @@
   letter-spacing: 0.06em;
   transition-duration: 2500ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.buttom:hover,
-.buttom:focus {
-  color: #2196f3;
-  background-color: #ffffff;
+
+  &:hover,
+  &:focus {
+    color: #2196f3;
+    background-color: #ffffff;
+  }
 }
