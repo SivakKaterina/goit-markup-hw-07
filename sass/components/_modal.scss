@@ -20,7 +20,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #ffffff;
+  background: $white;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -33,7 +33,7 @@
   right: 8px;
   width: 30px;
   height: 30px;
-  background-color: #ffffff;
+  background-color: $white;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
@@ -42,7 +42,7 @@
   justify-content: center;
 }
 .svg-button-backdrop {
-  background-color: #fff;
+  background-color: $white;
 }
 
 .block-form {
@@ -64,7 +64,7 @@
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: $title-text;
 }
 
 .input-name,
@@ -80,7 +80,7 @@
   font-weight: normal;
   font-size: 12px;
   line-height: 1.167;
-  color: #000000;
+  color: $black;
   outline: none;
 }
 
@@ -104,7 +104,7 @@
   font-weight: normal;
   font-size: 12px;
   line-height: 1.167;
-  color: #757575;
+  color: $secondary-text;
   transform: translateY(-50%);
 
   transition: transform 250ms;
@@ -118,7 +118,7 @@
   font-weight: normal;
   font-size: 12px;
   line-height: 1.167;
-  color: #757575;
+  color: $secondary-text;
 
   transform: translateY(-50%);
 
@@ -133,7 +133,7 @@
   font-weight: normal;
   font-size: 12px;
   line-height: 1.167;
-  color: #757575;
+  color: $secondary-text;
 
   transform: translateY(-50%);
 
@@ -144,7 +144,7 @@
 .input-name:not(:placeholder-shown) + .label-name {
   transform: translateY(-270%);
   left: 0;
-  border: #2196f3;
+  border: $accent-color;
 }
 .input-tel:focus + .label-tel,
 .input-tel:not(:placeholder-shown) + .label-tel {
@@ -164,26 +164,26 @@
   display: inline-block;
 }
 .input-name:focus ~ .icon-name {
-  fill: #2196f3;
+  fill: $accent-color;
 }
 .input-name:focus {
   outline: none;
-  border-color: #2196f3;
+  border-color: $accent-color;
 }
 .input-tel:focus ~ .icon-name {
-  fill: #2196f3;
+  fill: $accent-color;
 }
 .input-tel:focus {
   outline: none;
-  border-color: #2196f3;
+  border-color: $accent-color;
 }
 
 .input-email:focus ~ .icon-name {
-  fill: #2196f3;
+  fill: $accent-color;
 }
 .input-email:focus {
   outline: none;
-  border-color: #2196f3;
+  border-color: $accent-color;
 }
 
 .section-texterea {
@@ -201,7 +201,7 @@
   font-weight: normal;
   font-size: 12px;
   line-height: 1.167;
-  color: #757575;
+  color: $secondary-text;
   margin-bottom: 4px;
 }
 
@@ -216,7 +216,7 @@
   font-size: 12px;
   line-height: 1.167;
   letter-spacing: 0.01em;
-  color: #000000;
+  color: $black;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
@@ -226,7 +226,7 @@
 }
 .textarea:focus {
   outline: none;
-  border-color: #2196f3;
+  border-color: $accent-color;
 }
 .section-checkbox {
   display: block;
@@ -243,7 +243,7 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 1.714;
-  color: #757575;
+  color: $secondary-text;
 }
 
 .input-checkbox {
@@ -268,7 +268,7 @@
 .input-checkbox:checked + .icon {
   background-origin: border-box;
   border-color: transparent;
-  background-color: #2196f3;
+  background-color: $accent-color;
   background-image: url("../img-input-icon/icon-check.svg");
   background-size: contain;
 }
@@ -277,7 +277,7 @@
   font-size: 14px;
   line-height: 1.714;
   text-decoration-line: underline;
-  color: #2196f3;
+  color: $accent-color;
 }
 .button-form {
   display: flex;
@@ -300,5 +300,5 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: $white;
 }

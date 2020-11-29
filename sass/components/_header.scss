@@ -34,7 +34,7 @@ a.font-style {
   padding-top: 32px;
   padding-bottom: 32px;
 
-  color: #212121;
+  color: $title-text;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -45,7 +45,7 @@ a.font-style {
 
   &:hover,
   &:focus {
-    color: #2196f3;
+    color: $accent-color;
   }
 }
 .excretion.current:after {
@@ -57,7 +57,7 @@ a.font-style {
   border-radius: 2px;
   left: 0;
   bottom: 0px;
-  background-color: #2196f3;
+  background-color: $accent-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -78,7 +78,7 @@ a.font-style {
 .adress-excretion {
   display: flex;
   align-items: center;
-  color: #757575;
+  color: $secondary-text;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -89,7 +89,7 @@ a.font-style {
 
   &:hover,
   &:focus {
-    color: #2196f3;
+    color: $accent-color;
   }
 }
 .icon-envelope-hover {
@@ -99,7 +99,7 @@ a.font-style {
 
   .adress-excretion:hover &,
   .adress-excretion:focus & {
-    fill: #2196f3;
+    fill: $accent-color;
   }
 }
 
@@ -112,6 +112,6 @@ a.font-style {
 
   .adress-excretion:hover &,
   .adress-excretion:focus & {
-    fill: #2196f3;
+    fill: $accent-color;
   }
 }

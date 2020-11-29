@@ -1,5 +1,5 @@
 .logoheder {
-  color: #000000;
+  color: $black;
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
@@ -8,13 +8,13 @@
   padding-bottom: 25px;
 }
 .weblogo {
-  color: #2196f3;
+  color: $accent-color;
 }
 .logofooter {
   display: inline-block;
   padding-bottom: 20px;
 
-  color: #ffffff;
+  color: $white;
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
