@@ -84,9 +84,9 @@
   &:hover {
     background-color: #2196f3;
   }
-  &:not(:last-child) {
-    margin-right: 10px;
-  }
+}
+.social-footer-links:not(:last-child) {
+  margin-right: 10px;
 }
 
 .wrap-form {

@@ -666,7 +666,7 @@ a.font-style {
   background-color: #2196f3;
 }
 
-.footer-icons-link:not(:last-child) {
+.social-footer-links:not(:last-child) {
   margin-right: 10px;
 }
 
